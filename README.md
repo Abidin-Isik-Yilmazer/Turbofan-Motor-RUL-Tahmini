@@ -26,8 +26,7 @@ pytest -v               # testler (veri dosyası gerektirmez)
 | Random Forest | **13.07** | 10.03 | 285 |
 | Hist Gradient Boosting | 13.28 | 10.04 | 309 |
 
-Özellik seçimi 5 katlı, motor bazlı çapraz doğrulama ile yapıldı; test seti
-seçimlerde kullanılmadı. Çapraz doğrulamada RMSE yolculuğu:
+Özellik ve pencere seçimleri 5 katlı, motor bazlı çapraz doğrulama ile yapıldı; test seti bu kararlar için kullanılmadı. Çapraz doğrulamada RMSE yolculuğu:
 sadece kayan ortalama 18.58 → +eğim(20) 15.47 → +eğim(50) **11.12**.
 
 ## Özellikler
